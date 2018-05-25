@@ -393,8 +393,20 @@ p{
 	margin-top: 10px;
 }
 
-input[type=text], select, textarea {
+input[type=text], select{
     width: 70%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+	margin-left: 20px;
+    resize: vertical;
+}
+
+textarea{
+	height: 200px;
+	width: 70%;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
